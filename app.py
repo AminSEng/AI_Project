@@ -4,9 +4,9 @@ import folium
 from streamlit_folium import folium_static
 
 # Clés API
-GOOGLE_PLACES_API_KEY = "AIzaSyCpWSLMkaVBu8YAeUTdZtumWaJb2TPp5cI"
-AZURE_API_KEY = "BVwfmMkXj9i0ZBjv8YD15ehGQ0wVrlUXia90qclPCpB6TRpNeREGJQQJ99BAACfhMk5XJ3w3AAAAACOGT77Y"
-AZURE_API_URL = "https://anass-m5x3j29q-swedencentral.openai.azure.com/openai/deployments/gpt-35-turbo-16k/chat/completions?api-version=2024-08-01-preview"
+GOOGLE_PLACES_API_KEY = "YOUR_GOOGLE_API_KEY"
+AZURE_API_KEY = "YOUR_AZURE_API_KEY"
+AZURE_API_URL = "YOUR_AZURE_API_URL"
 
 # Configuration de la page Streamlit
 st.set_page_config(page_title="Travel Recommendation App", page_icon="🌍", layout="wide")
